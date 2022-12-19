@@ -119,7 +119,7 @@ body {
 }
 
 .background {
-    background-image: url("/DystopianMenu2.png");
+    background-image: url("/TemplateData/DystopianMenu2.png");
 
     /* Add the blur effect */
     filter: blur(8px);
