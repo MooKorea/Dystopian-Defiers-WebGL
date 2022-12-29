@@ -39,7 +39,7 @@ body {
 #unity-logo {
     width: 154px;
     height: 130px;
-    background: url('VGDCLoading.gif') no-repeat center
+    background: url('/assets/VGDCLoading.gif') no-repeat center
 }
 
 #unity-progress-bar-empty {
@@ -69,7 +69,8 @@ body {
     float: left;
     width: 204px;
     height: 38px;
-    background: url('webgl-logo.png') no-repeat center
+    background: url('/assets/DystopianLogo.png');
+    pointer-events: none;
 }
 
 #unity-build-title {
@@ -77,7 +78,11 @@ body {
     margin-right: 10px;
     line-height: 38px;
     font-family: arial;
-    font-size: 18px
+    font-size: 18px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 #unity-fullscreen-button {
@@ -117,7 +122,7 @@ body {
 #unity-footer>div:first-child {
     margin-right: auto;
 }
-/* aaaaaaaaaaaaa */
+
 .background {
     background-image: url("/assets/DystopianMenu2.png");
 
@@ -133,4 +138,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.dystopian-logo {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
